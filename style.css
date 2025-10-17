@@ -1,0 +1,17 @@
+
+
+body {
+
+    background-color: aqua; 
+}
+
+img{
+
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 20px;
+    width: 15rem; 
+    height: auto;
+    text-decoration: overline;
+}
