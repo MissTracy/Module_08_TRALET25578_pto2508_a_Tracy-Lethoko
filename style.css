@@ -6,7 +6,7 @@ body {
 }
 
 img{
-
+    border-top: 2px solid black;
     position: absolute;
     bottom: 8px;
     left: 16px;
