@@ -1,8 +1,16 @@
 
+:root{
+    
+    h4,h3,li,a{
+        color: #3a3737 ;
+    }
+
+}
+
 
 body {
 
-    background-color: aqua; 
+    background-color: #5CA690; 
 }
 
 
@@ -37,13 +45,13 @@ ul{
 .logosubscribe {
     display: flex;
     flex-direction: column;
-    /* gap: 1rem;  */
+    /* gap: 16rem;  */
     /* justify-content: flex-start;  */
     padding-left: 5rem;       
     /* border-top: double; */
+      /* border-radius: 25px; */
 
 
-    
 }
 
 /* .image{  */
@@ -58,12 +66,12 @@ ul{
     /* align-self: flex-start; */
     padding-left: 3.5rem;
     margin-top: 0.2rem
+
 }
 
 
 .wrap-image-boarder {
   /* width: 100vw;               */
-  /* full viewport width */
   /* position: relative; */
   /* left: 50%; */
   /* text-align: center; */
@@ -77,7 +85,7 @@ ul{
 
 .boarder {
 
-    border-top: 2px solid #000;
+    border-top: 2px solid #f30707;
     width: 100%;
     margin-top:  1.5rem; 
 }
@@ -98,4 +106,40 @@ ul{
 
 .footer-tech{
     padding-top: .5rem;
+}
+
+button{
+
+    border-radius: 10px;
+    background-color: #fc7216;
+    color: #ffffff;
+    /* size: 1px;    */
+    border-style: none;
+    /* padding: 0.6rem;   */
+    font-size: 1rem; 
+    width: 170px; 
+    height: 35px; 
+    /* gap:5rem; */
+        /* margin-left: 10px; */
+
+
+}
+
+input{
+
+
+    border-radius: 10px ;
+    border-style: none;
+    font-size: 1rem; 
+    width: 170px; 
+    height: 35px; 
+    /* margin-left: 2px; */
+    padding: 0 10px
+
+}
+
+.newsletter{
+    gap: .5rem;
+    display: flex;
+
 }
